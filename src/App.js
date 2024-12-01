@@ -29,7 +29,7 @@ import React from 'react';
 const App = () => {
   const callLambdaFunction = async () => {
     // const url = 'https://hbbga5xqeyxbma6n6rxtxzu44q0kejif.lambda-url.eu-north-1.on.aws/';
-    const url = 'https://hbbga5xqeyxbma6n6rxtxzu44q0kejif.lambda-url.eu-north-1.on.aws/';
+    const url = "https://lxtustrzzroeasqsrkl7ffruka0iubfj.lambda-url.us-east-2.on.aws/dev";
     try {
       const response = await fetch(url);
       const data = await response.json();
